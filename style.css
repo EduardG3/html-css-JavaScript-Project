@@ -39,11 +39,12 @@
 .navbar ul li::after{
     content: "";
     height: 3px;
+    border-radius: 100px !important;
     width: 0%;
     background: #009688;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -3px;
     transition: 1s;
 }
 .navbar ul li:hover::after{
